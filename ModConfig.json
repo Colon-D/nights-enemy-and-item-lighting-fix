@@ -1,0 +1,48 @@
+{
+  "ModId": "nights.test.enemyanditemlightingfix",
+  "ModName": "Enemy and Item Lighting Fix",
+  "ModAuthor": "Jordan",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Applies lighting to Enemies and Items.",
+  "ModDll": "nights.test.enemyanditemlightingfix.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/nights.test.enemyanditemlightingfix.dll",
+  "ModR2RManagedDll64": "x64/nights.test.enemyanditemlightingfix.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "nights.test.enemyanditemlightingfix.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    },
+    "GitHubRelease": {
+      "UserName": "Colon-D",
+      "RepositoryName": "nights-enemy-and-item-lighting-fix",
+      "UseReleaseTag": true,
+      "AssetFileName": "Mod.zip"
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "nights.exe"
+  ],
+  "ProjectUrl": ""
+}
